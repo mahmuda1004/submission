@@ -13,7 +13,7 @@ st.subheader('Pertanyaan 1: Bagaimana pengaruh hari libur dan hari kerja terhada
 st.subheader('Pertanyaan 2: Apakah terdapat pola musiman dalam jumlah penyewaan sepeda?')
 
 # Memuat dataset dari file CSV
-data = pd.read_csv('https://raw.githubusercontent.com/mahmuda1004/submission/main/dashboard/day.csv')
+data = pd.read_csv('https://github.com/mahmuda1004/submission/blob/main/dashboard/day.csv')
 
 # Mengonversi kolom 'dteday' menjadi tipe datetime dan menambahkan kolom bulan
 data['dteday'] = pd.to_datetime(data['dteday'])
